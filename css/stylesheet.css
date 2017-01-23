@@ -1,0 +1,56 @@
+body{
+	background-color: #000000;  
+}
+#personalinfo p {
+    margin: 16px 0;
+    padding: auto;
+}
+#work { 
+	margin: 16px 130px;
+    padding: auto;
+	color: #07FF00;
+;
+}
+#profile p { 
+	margin: 16px 130px;
+    padding: auto;
+	color:#07FF00;
+}
+
+#interest {
+	margin: 16px 130px;
+    padding: auto;
+color: #07FF00;  
+}
+
+#education {
+	margin: 16px 130px;
+    padding: auto;
+color: #07FF00;  
+}
+#skills {
+	margin: 16px 130px;
+    padding: auto;
+	color: #07FF00;  
+}
+
+h1 {
+	font-family: 'Bungee Shade', cursive;
+	font-size: 100px;
+	color: #07FF00;
+	margin: 16px 130px;
+    padding: auto;
+}
+
+h2 {
+	font-family: 'Bungee Shade', cursive;
+	font-size: 48px;
+	margin: 16px 65px;
+    padding: auto;
+
+}
+#footer {
+	margin: 16px 13autopx;
+    padding: auto;
+	color: #07FF00;
+}
