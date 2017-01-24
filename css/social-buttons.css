@@ -330,7 +330,7 @@ a.sb.green,
 .sb.green a,
 a.sb.green:after,
 .sb.green a:after {
-	background-color: #4aab10;
+	background-color: #5CFA7F;
 	border-color: #1e5608;
 	color: #fff;
 }
@@ -948,6 +948,7 @@ a.sb.youtube {
 }
 a.sb.email {
 	background-image: url(images/email.png);
+	background-color: #5CFA7F;
 }
 
 /* custom icon */

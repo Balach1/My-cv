@@ -1,56 +1,70 @@
 body{
-	background-color: #000000;  
+	/*background-image: url("/Users/tech-a04/Desktop/MyCVWebsite/codeback.png");*/
+	background-color: black;
+	background-repeat: no-repeat;
+  	background-size: cover; 
+
 }
 #personalinfo p {
     margin: 16px 0;
     padding: auto;
 }
-#work { 
-	margin: 16px 130px;
-    padding: auto;
-	color: #07FF00;
-;
+#work, #education { 
+	
+	margin: 20px;
+	width: 420px;
+	height: auto;
+	color: #5CFA7F;
+	clear: right;
+	float: left;
 }
+
+
 #profile p { 
+	background-color: white;
 	margin: 16px 130px;
     padding: auto;
-	color:#07FF00;
-}
+	color:#5CFA7F;
+}	
 
 #interest {
+	
 	margin: 16px 130px;
     padding: auto;
-color: #07FF00;  
+	color: #5CFA7F;  
 }
 
-#education {
-	margin: 16px 130px;
-    padding: auto;
-color: #07FF00;  
-}
+
 #skills {
-	margin: 16px 130px;
-    padding: auto;
-	color: #07FF00;  
+	
+	float:left;
+	color: #5CFA7F;  
 }
 
 h1 {
-	font-family: 'Bungee Shade', cursive;
+    font-family: 'mrrobotregular';
+    font-weight: normal;
+    font-style: normal;
 	font-size: 100px;
-	color: #07FF00;
+	
 	margin: 16px 130px;
     padding: auto;
+    color: #5CFA7F;
+    line-height: 90%;
+    	
 }
 
 h2 {
-	font-family: 'Bungee Shade', cursive;
+	font-family: 'mrrobotregular';
+	font-weight: normal;
 	font-size: 48px;
 	margin: 16px 65px;
     padding: auto;
-
+	
 }
 #footer {
+	
 	margin: 16px 13autopx;
     padding: auto;
-	color: #07FF00;
+	color: #5CFA7F;
 }

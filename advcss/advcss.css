@@ -1,0 +1,31 @@
+h1 , p, body, html{
+	padding: 0px;
+	margin: 0px;
+	border: 0px
+}
+
+#left_column, #middle_column, #right_column {
+	margin: 20px;
+	background-color: #AABBCC;
+	padding:10px;
+	width: 296px; 
+	float: left;
+	border: 2px solid black;
+	border-radius: 15px;
+	clear: right;	
+}
+#right_column{
+	width: 496px;
+	float: left;
+}
+#menu ul{
+	list-style: none;
+	float: right;
+}
+#menu li {
+	display: inline-block;
+	width: 100px;
+}
+.clr{
+	clear: both;
+}
