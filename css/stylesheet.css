@@ -1,4 +1,4 @@
-body{
+body {
 	/*background-image: url("/Users/tech-a04/Desktop/MyCVWebsite/codeback.png");*/
 	background-color: black;
 	background-repeat: no-repeat;
@@ -44,10 +44,9 @@ body{
     margin: 16px 0;
     padding: auto;
 }
-#work, #education { 
+#work, #education, #skills, #interests { 
 	
 	margin: 20px;
-	width: 420px;
 	height: auto;
 	color: #5CFA7F;
 	clear: both;
@@ -88,14 +87,7 @@ h1 {
     	
 }
 
-h2 {
-	font-family: 'mrrobotregular';
-	font-weight: normal;
-	font-size: 48px;
-	margin: 16px 65px;
-    padding: auto;
-	
-}
+
 #footer {
 	
 	margin: 16px 13autopx;
