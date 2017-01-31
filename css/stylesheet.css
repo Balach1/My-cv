@@ -4,7 +4,7 @@ html {
 	padding:0;
 }
 body {
-	/*background-image: url("/Users/tech-a04/Desktop/MyCVWebsite/codeback.png");*/
+	
 	background-color: black;
 	background-repeat: no-repeat;
   	background-size: cover;
@@ -12,18 +12,20 @@ body {
     margin: 0;
     padding:0;
     }
+
+    
 #wrapper{ 
-	min-height: 100%;
+	min-height: 90%;
 	position: relative;
 
  }
-
 main {
 	width: 100%;
 	float: left;
 	padding: 5px 10px 5px 15px;
 
 }
+
 /* this section if for the nav bar */
 #nav ul{
 	list-style: none;
@@ -60,40 +62,53 @@ main {
 }
 /* this is the end of the nav */
 
-
-#personalinfo p {
-    margin: 16px 0;
-    padding: auto;
-}
-#work, #education, #skills, #interests { 
-	
-	margin: 20px;
-	height: auto;
-	color: #5CFA7F;
-	clear: both;
-	float: left;
-}
- 
-
-#profile p { 
-	background-color: white;
-	margin: 16px 130px;
-    padding: auto;
+section { 
+	background-color: black;
+	width: 42%;
+    margin: 1px 42px;
+    padding: 0;
 	color:#5CFA7F;
 }	
-
-#interest {
-	
-	margin: 16px 130px;
-    padding: auto;
-	color: #5CFA7F;  
+#hm {
+	background-image: url(images/email.png);
+    background-color: #5CFA7F;
+    border-color: #1e5608;
+    border-radius: 20px;
+    border: solid 3px #1e5608;
+}
+#in {
+	background-image: url(images/email.png);
+    background-color: #7a6bf8;
+    border-color: #321396;
+    border-radius: 20px;
+    border: solid 3px #321396;
 }
 
-
-#skills {
+#education, h1 {
+	color: red;
 	
-	float:left;
-	color: #5CFA7F;  
+}
+
+#ed {
+    background-image: url(images/email.png);
+    background-color: #e8311f;
+    border-color: #9d1d14;
+    border-radius: 20px;
+    border: solid 3px #9d1d14;
+}
+
+#sk{
+	background-image: url(images/email.png);
+    background-color: #4d7de1;
+    border-color: #294c89;
+    border-radius: 20px;
+    border: solid 3px #294c89;
+}
+#interests, h1{
+	color: #663399;
+}
+#skills, h1 {
+	color: blue;
 }
 
 h1 {
@@ -101,19 +116,20 @@ h1 {
     font-weight: normal;
     font-style: normal;
 	font-size: 100px;
-	margin: 18px 41px;
-    padding: 6% 0%;
+	margin: 3%;
+    padding: 0;
     color: #5CFA7F;
     line-height: 90%;
     	
 }
-#footer {
+footer {
 	height: 40px;
 	width: 100%;
 	color: #5CFA7F;
 	bottom: 0;
 	left: 0;
 	position: relative;
+	padding: 36px 40px 5px 60px
 	
 }
 @media screen and (min-width: 500px) {

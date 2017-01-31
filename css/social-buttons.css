@@ -664,6 +664,7 @@ a.sb.text,
     height: 20px;
     padding: 7px 13px 3px 30px;
 	background-position: 2px center;
+	color: black;
 }
 *:first-child+html a.sb.text,
 *:first-child+html .sb.text a {
