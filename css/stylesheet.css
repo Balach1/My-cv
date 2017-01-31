@@ -84,11 +84,6 @@ section {
     border: solid 3px #321396;
 }
 
-#education, h1 {
-	color: red;
-	
-}
-
 #ed {
     background-image: url(images/email.png);
     background-color: #e8311f;
@@ -103,6 +98,22 @@ section {
     border-color: #294c89;
     border-radius: 20px;
     border: solid 3px #294c89;
+}
+#we{
+	background-image: url(images/email.png);
+    background-color: #ff9600;
+    border-color: #c35505;
+    border-radius: 20px;
+    border: solid 3px #c35505;
+}
+#work, h1 {
+	color: orange;
+
+}
+
+#education, h1 {
+	color: red;
+	
 }
 #interests, h1{
 	color: #663399;
