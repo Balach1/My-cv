@@ -5,6 +5,22 @@ body{
   	background-size: cover; 
 
 }
+
+
+#nav ul{
+	list-style: none;
+	float: left;
+}
+
+#nav li {
+	display: inline-block;
+	width: 100px;
+	margin: 0 auto;
+}
+.cf {
+	clear: both;
+}
+
 .btn {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
@@ -16,7 +32,7 @@ body{
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   width: 32px;
-	height: 32px;
+  height: 32px;
 }
 
 .btn:hover {
@@ -34,10 +50,10 @@ body{
 	width: 420px;
 	height: auto;
 	color: #5CFA7F;
-	clear: right;
+	clear: both;
 	float: left;
 }
-
+ 
 
 #profile p { 
 	background-color: white;
@@ -65,9 +81,8 @@ h1 {
     font-weight: normal;
     font-style: normal;
 	font-size: 100px;
-	
-	margin: 16px 130px;
-    padding: auto;
+	margin: 18px 41px;
+    padding: 6% 0%;
     color: #5CFA7F;
     line-height: 90%;
     	
