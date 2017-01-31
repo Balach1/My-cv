@@ -1,3 +1,7 @@
+html {    
+	height: 100% 
+	 }
+
 body {
 	/*background-image: url("/Users/tech-a04/Desktop/MyCVWebsite/codeback.png");*/
 	background-color: black;
@@ -6,7 +10,7 @@ body {
 
 }
 
-
+/* this section if for the nav bar */
 #nav ul{
 	list-style: none;
 	float: left;
@@ -39,6 +43,8 @@ body {
   background: #016b0e;
   text-decoration: none;
 }
+/* this is the end of the nav */
+
 
 #personalinfo p {
     margin: 16px 0;
@@ -94,5 +100,10 @@ h1 {
     padding: auto;
 	color: #5CFA7F;
 	bottom: 0;
-	position: absolute;
+	position: relative;
+	padding-top: inherit;
+}
+@media screen and (min-width: 500px) {
+	body 
+	
 }
